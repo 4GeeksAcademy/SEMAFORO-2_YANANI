@@ -4,7 +4,7 @@ const Semaforo = () => {
   const [color, setColor] = useState("rojo");
   const [tienePurpura, setColorPurpura] = useState(false);
 
-  // CAMBIAR COLOR
+  // CAMBIAR COLOR SUPONGO QUE SERIA MEJOR CON UN SERSTATE O ALGO ASI PERO SOLO SE ME OCURRE HACER CON IF Y ELSE
   const cambiarColor = () => {
       if (color === "rojo") setColor("amarillo");
       else if (color === "amarillo") setColor("verde");

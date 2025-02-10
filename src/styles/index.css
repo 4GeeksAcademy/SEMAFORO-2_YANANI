@@ -1,9 +1,16 @@
+.semaforo-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+
 .semaforo {
-    
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
   }
   
   .caja_fondo {
@@ -24,6 +31,22 @@
     cursor: pointer;
     transition: all 0.3s ease-in-out;
   }
+
+  .boton_cambiar, .boton_agregar {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.boton-cambiar:hover, .boton-agregar:hover {
+    background-color: #555;
+}
+
   
   .rojo {
     background-color: rgb(127, 29, 29);
@@ -52,3 +75,11 @@
     box-shadow: 0px 0px 20px rgba(34, 197, 94, 0.8);
   }
   
+  .purpura {
+    background-color: rgba(102, 0, 255, 0.968);
+  }
+  
+  .purpura_brillo {
+    background-color: rgb(234, 18, 227);
+    box-shadow: 0px 0px 20px rgba(102, 0, 255, 0.968);
+  }

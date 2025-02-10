@@ -8,7 +8,8 @@ import Semaforo from "./semaforo";
 //create your first component
 const home = () => {
 	return (
-		<div> <Semaforo/> </div>
+		<div> <Semaforo/> </div>,
+		
 	)
 };
 
